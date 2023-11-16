@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-mini: 15px;
+    --font-size-15xl: 34px;
+    --font-size-3xl: 22px;
+    --font-size-xs: 12px;
+    --font-size-7xl: 26px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-rosybrown: #d5999d;
+    --color-lavender-100: #f9ebff;
+    --color-lavender-200: #d0daff;
+    --color-white: #fff;
+    --color-lightsteelblue: #c8c9e4;
+    --color-gray-100: #fefdff;
+    --color-gray-200: #0f0f0f;
+    --color-gainsboro: #e6e6e6;
+    --color-skyblue: #66b5c7;
+    --color-lightblue: #c8e3ee;
+    --color-silver-100: #c5c5d1;
+    --color-dimgray: #565868;
+  
+    /* Gaps */
+    --gap-sm: 14px;
+    --gap-5xl: 24px;
+  
+    /* Border radiuses */
+    --br-6xl: 25px;
+  }
+  
+  .page-principale-ia-test-ia-c-child,
+  .page-principale-ia-test-ia-c-inner,
+  .page-principale-ia-test-ia-c-item,
+  .rectangle-div {
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    border-radius: var(--br-6xl);
+    border: 1px solid var(--color-dimgray);
+    box-sizing: border-box;
+    width: 468px;
+    height: 55px;
+  }
+  .page-principale-ia-test-ia-c-inner,
+  .page-principale-ia-test-ia-c-item,
+  .rectangle-div {
+    top: 550px;
+    left: 820px;
+  }
+  .page-principale-ia-test-ia-c-inner,
+  .rectangle-div {
+    top: 472px;
+    left: 300px;
+  }
+  .rectangle-div {
+    top: 472px;
+    left: 820px;
+  }
+  .question,
+  .question1 {
+    position: absolute;
+    top: 562px;
+    left: 350px;
+    font-weight: 200;
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    font-size: large;
+  }
+  .question1 {
+    top: 480px;
+    font-weight: 200;
+  }
+  .question2,
+  .question3 {
+    position: absolute;
+    top: 565px;
+    left: 870px;
+    font-weight: 600;
+    display: inline-block;
+    width: 387px;
+    height: 26px;
+    font-weight: 200;
+    font-size: large;
+  }
+  .question3 {
+    top: 484px;
+    height: 27px;
+    font-weight: 200;
+    font-size: large;
+  }
+  .frame-child {
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    border-radius: 35px;
+    border: 1px solid #cbc9c9;
+    box-sizing: border-box;
+    width: 980px;
+    height: 95px;
+  }
+ 
+  .tapez-votre-demande {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    font-weight: 500;
+  }
+  .arrow-icon {
+    position: absolute;
+    top: 120px;
+    left: 940px;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 530px;
+    left: 268px;
+    width: 969px;
+    height: 95px;
+    font-size: 24px;
+    color: #a5a4a4;
+  }
+  .menu-ia-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-gray-200);
+  }
+  .christophe {
+    position: absolute;
+    height: 2.55%;
+    width: 43.08%;
+    top: 92.46%;
+    left: 37.31%;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    display: inline-block;
+  }
+  .menu-ia-item {
+    position: absolute;
+    height: 6.52%;
+    width: 24.62%;
+    top: 91.34%;
+    right: 65%;
+    bottom: 2.14%;
+    left: 10.38%;
+    border-radius: 50%;
+    background-color: var(--color-lightblue);
+  }
+  .ca,
+  .christopheasmodeefr {
+    position: absolute;
+    display: inline-block;
+  }
+  .ca {
+    height: 3.36%;
+    width: 15%;
+    top: 92.57%;
+    left: 15.38%;
+    font-size: var(--font-size-7xl);
+    color: var(--color-skyblue);
+    -webkit-text-stroke: 0.5px #3a8275;
+  }
+  .christopheasmodeefr {
+    height: 1.73%;
+    width: 55.77%;
+    top: 95.01%;
+    left: 37.31%;
+    font-size: var(--font-size-xs);
+    color: var(--color-gainsboro);
+  }
+  .asmodia-classic {
+    position: relative;
+    font-weight: 200;
+  }
+  .asmodia-classic-parent {
+    position: absolute;
+    top: 106px;
+    left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-3xl);
+    color: var(--color-lavender-100);
+  }
+  .asmodia {
+    position: absolute;
+    top: 19px;
+    left: 77px;
+    font-size: var(--font-size-15xl);
+    font-weight: 1000;
+    color: var(--color-gray-100);
+    -webkit-text-stroke: 3px #393939;
+  }
+  .previous-7-days,
+  .today,
+  .yesterday {
+    position: absolute;
+    top: 303px;
+    left: 10px;
+    font-weight: 500;
+    color: var(--color-lightsteelblue);
+  }
+  .previous-7-days,
+  .yesterday {
+    top: 523px;
+    display: none;
+  }
+  .previous-7-days {
+    top: 743px;
+  }
+  .new-chat {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 189px;
+  }
+  .new-chat-container,
+  .new-chat-group,
+  .new-chat-parent {
+    position: absolute;
+    left: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-sm);
+    font-size: medium;
+  }
+  .new-chat-parent {
+    top: 339px;
+    display: flex;
+  }
+  .new-chat-container,
+  .new-chat-group {
+    top: 559px;
+    display: none;
+  }
+  .new-chat-container {
+    top: 779px;
+  }
+  .explore-icon {
+    position: absolute;
+    top: 221px;
+    left: 17px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+  }
+  .menu-ia-inner {
+    position: absolute;
+    top: 879.63px;
+    left: 19px;
+    width: 223px;
+    height: 0;
+  }
+
+  .logo-icon {
+    position: absolute;
+    top: 19px;
+    left: 12px;
+    width: 46px;
+    height: 47px;
+  }
+ 
+
+  .classic-icon {
+    position: absolute;
+    top: 98px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .data-icon {
+    position: absolute;
+    top: 152px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+  }
+ 
+  .line-icon,
+  .menu-ia {
+    position: absolute;
+    top: 80.5px;
+    left: 18.5px;
+    width: 224px;
+    height: 2px;
+  }
+  .menu-ia {
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 982px;
+    font-size: var(--font-size-mini);
+    color: var(--color-white);
+  }
+  .page-principale-ia-test-ia-c {
+    position: relative;
+    background-color: #343540;
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+    font-size: var(--font-size-3xl);
+    color: var(--color-silver-100);
+    font-family: var(--font-poppins);
+  }
+  

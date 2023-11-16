@@ -1,0 +1,162 @@
+/* les marges pour l'ensemble de la page */
+body {
+  margin: 100px 290px;
+}
+
+/* Style pour le rectangle */
+.rectangle {
+  position: absolute;
+  top: 78px;
+  left: 372px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.1);
+  width: 393px;
+  height: 405px;
+}
+
+/* Styles pour "Saisissez votre mail", "Connectez-vous" et "Email" */
+.text,
+.text1,
+.textbox {
+  position: absolute;
+  left: 423px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Style pour "Saisissez votre mail" */
+.textbox {
+  top: 213px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  width: 309px;
+  height: 30px;
+}
+
+/* Styles pour "Email" et "Connectez-vous" */
+.text,
+.text1 {
+  top: 187px;
+  display: inline-block;
+  width: 30px;
+}
+/* Styles pour "Connectez-vous" */
+.text1 {
+  top: 106px;
+  left: 499px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #231998;
+  width: 155px;
+}
+
+/* Style pour "Saisissez votre mot de passe" */
+.textbox1 {
+  position: absolute;
+  top: 288px;
+  left: 423px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  width: 309px;
+  height: 30px;
+}
+
+/* Styles "pour mot de passe" */
+.text2 {
+  position: absolute;
+  top: 265px;
+  left: 415px;
+  display: inline-block;
+  width: 95px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Style pour connexion */
+.text3 {
+  position: relative;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* Style pour connexion */
+.textwrapper {
+  border-radius: 10px;
+  background-color: #d0daff;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 90px;
+  box-sizing: border-box;
+}
+
+/* Styles pour un bouton et style pour Connectez-vous pour accéder à votre espace */
+.button,
+.text4 {
+  position: absolute;
+}
+
+.button {
+  top: 354px;
+  left: 490px;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #fff;
+}
+/* style pour Connectez-vous pour accéder à votre espace */
+.text4 {
+  top: 147px;
+  left: 461px;
+  color: #474749;
+  text-align: center;
+  display: inline-block;
+  width: 247px;
+  font-size: small;
+}
+
+/* Style pour un lien */
+.creruncompte {
+  text-decoration: underline;
+  color: #7885b2;
+}
+
+/* Style pour "Vous n’avez pas de compte ?" */
+.text5 {
+  position: absolute;
+  top: 411px;
+  left: 446px;
+  text-align: center;
+  display: inline-block;
+  width: 254px;
+  color: #474749;
+}
+
+/* Style pour le logo */
+.logoasmodia {
+  position: absolute;
+  top: 109px;
+  left: 25px;
+  width: 310px;
+  height: 333px;
+  object-fit: cover;
+}
+
+/* Style pour la page de connextion */
+.pagedeconnexion {
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 583px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #7e7e83;
+  font-family: Roboto;
+}
