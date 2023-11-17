@@ -1,0 +1,427 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* police */
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+
+  /* taille de la police */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-41xl: 60px;
+
+  /* Toutes les couleurs utilisée */
+  --color-darkslategray-100: #2c5963;
+  --color-gray-100: #2c2b3f;
+  --color-gray-200: #1f1d1f;
+  --color-lightblue: #a6c5cc;
+  --color-lightgray: #d3d3d3;
+  --color-darkolivegreen: #4c6035;
+  --color-beige: #e7eedd;
+  --color-darkslateblue-100: #5b5898;
+  --color-darkslateblue-200: #49476c;
+  --color-cornflowerblue: #9b9ffa;
+
+  /* Rayon des bordurs */
+  --br-8xs: 5px;
+}
+
+/*carré en bas à droit*/ 
+.profile-christophe-appel-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 256px;
+  height: 160px;
+}
+.profile-christophe-appel-item {
+  position: absolute;
+  top: 27px;
+  left: 76px;
+  border-radius: 50%;
+  background-color: #565790;
+  filter: blur(70px);
+  width: 105px;
+  height: 105px;
+}
+.profile-christophe-appel-inner {
+  position: absolute;
+  top: 33px;
+  left: 81px;
+  border-radius: 50%;
+  background-color: #5051a4;
+  width: 94px;
+  height: 94px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 35px;
+  left: 83px;
+  border-radius: 50%;
+  background-color: var(--color-lightblue);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+}
+.ca {
+  position: absolute;
+  top: 57px;
+  left: 106px;
+  font-weight: 500;
+  -webkit-text-stroke: 0.3px #2c2b3f;
+}
+.profile-christophe-appel {
+  position: absolute;
+  top: 822px;
+  left: 1180px;
+  width: 256px;
+  height: 160px;
+  font-size: 30px;
+  color: var(--color-darkslategray-100);
+}
+/*Debut rond central*/
+.bulle-child,
+.bulle-item {
+  position: absolute;
+  top: 92px;
+  left: 95px;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  width: 223px;
+  height: 225px;
+}
+.bulle-item {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  filter: blur(400px);
+  width: 415.18px;
+  height: 409px;
+}
+.bulle-inner {
+  top: 98px;
+  left: 101px;
+  border-radius: 50%;
+  background-color: var(--color-beige);
+  border: 4px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  width: 211.89px;
+  height: 213px;
+}
+.bulle,
+.bulle-inner,
+.np {
+  position: absolute;
+}
+
+
+.np {
+  top: 167px;
+  left: 166px;
+  font-weight: 600;
+}
+.bulle {
+  top: 287px;
+  left: 548px;
+  width: 415.18px;
+  height: 409px;
+  font-family: var(--font-inter);
+}
+/*fin rond central*/
+
+/* barre sur le coté gauche*/
+.barre-menu-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1d1c1c;
+  width: 112px;
+  height: 982px;
+}
+.chat-icon,
+.cloche-icon {
+  position: absolute;
+  top: 75px;
+  left: 32px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.chat-icon {
+  top: 148px;
+  left: 31px;
+}
+.fluentapps-icon,
+.question-icon {
+  position: absolute;
+  top: 893px;
+  left: 28px;
+  width: 47px;
+  height: 47px;
+  overflow: hidden;
+}
+.fluentapps-icon {
+  top: 807px;
+}
+.help {
+  position: absolute;
+  top: 940px;
+  left: 29px;
+  font-size: var(--font-size-xl);
+}
+.calendar,
+.calls,
+.files,
+.teams {
+  position: absolute;
+  top: 472px;
+  left: 38px;
+}
+.calendar,
+.calls,
+.teams {
+  top: 399px;
+}
+.calendar,
+.teams {
+  top: 325px;
+  left: 22px;
+}
+.teams {
+  top: 253px;
+  left: 32px;
+}
+.activity,
+.apps,
+.chat {
+  position: absolute;
+  top: 188px;
+  left: 33px;
+}
+.activity,
+.apps {
+  top: 113px;
+  left: 23px;
+}
+.apps {
+  top: 854px;
+  left: 27px;
+  font-size: var(--font-size-xl);
+}
+.files-icon,
+.dots-icon {
+  position: absolute;
+  top: 505px;
+  left: 34px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.files-icon {
+  top: 434px;
+  left: 33px;
+  width: 38px;
+  height: 36.19px;
+}
+.calendar-icon,
+.call-icon,
+.people-icon {
+  position: absolute;
+  top: 360px;
+  left: 35px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.calendar-icon,
+.people-icon {
+  top: 288px;
+}
+.people-icon {
+  top: 223px;
+}
+.barre-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 112px;
+  height: 982px;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray);
+}
+
+/*barre du haut*/
+.header-child {
+  position: absolute;
+  top: 0;
+  left: 86px;
+  background-color: var(--color-gray-200);
+  width: 1410px;
+  height: 111px;
+}
+
+.rectangle-div {
+  position: absolute;
+  top: 50px;
+  left: 488px;
+  background-color: #373535;
+  width: 584px;
+  height: 32px;
+}
+.pen-icon {
+  position: absolute;
+  top: 54px;
+  left: 435px;
+  width: 21px;
+  height: 21px;
+  overflow: hidden;
+}
+.arrow2-icon,
+.arrow1-icon {
+  position: absolute;
+  top: 46px;
+  left: 325px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+.arrow2-icon {
+  left: 370px;
+  top: 43px;
+}
+.header-child2,
+.search-or-type {
+  position: absolute;
+  top: 54px;
+  left: 668px;
+}
+.header-child2 {
+  top: 37px;
+  left: 1300px;
+  border-radius: 50%;
+  background-color: var(--color-lightblue);
+  width: 52px;
+  height: 52px;
+}
+.ca1 {
+  position: absolute;
+  top: 49px;
+  left: 1315px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  width: 27px;
+  height: 22px;
+}
+.header-child3 {
+  position: absolute;
+  top: 71px;
+  left: 1432px;
+  border-radius: 50%;
+  background-color: #df4848;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 13px;
+  height: 13px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 1496px;
+  height: 111px;
+  font-size: var(--font-size-base);
+  color: #8a8887;
+}
+.barre-appel-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: #3a3939;
+  box-shadow: -7px 4px 8px rgba(0, 0, 0, 0.34);
+  width: 224px;
+  height: 56px;
+}
+.div {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-weight: 500;
+}
+
+/*barre du bas*/
+.barre-appel-item {
+  position: absolute;
+  top: -0.5px;
+  left: 66.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 57px;
+}
+.camera-icon,
+.micro-icon {
+  position: absolute;
+  top: 18px;
+  left: 83px;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.micro-icon {
+  height: 39.29%;
+  width: 6.7%;
+  top: 32.14%;
+  right: 33.04%;
+  bottom: 28.57%;
+  left: 60.27%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*interieur de la barre*/
+.barre-appel-inner {
+  position: absolute;
+  top: 0;
+  left: 167px;
+  border-radius: var(--br-8xs);
+  background-color: #9d2e41;
+  width: 57px;
+  height: 56px;
+}
+.phone-icon {
+  position: absolute;
+  top: 16px;
+  left: 183px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.barre-appel {
+  position: absolute;
+  top: 824px;
+  left: 644px;
+  width: 224px;
+  height: 56px;
+  font-size: var(--font-size-base);
+  color: #a5a3a2;
+}
+.teams- {
+  position: relative;
+  background-color: #373644;
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkolivegreen);
+  font-family: var(--font-poppins);
+}
